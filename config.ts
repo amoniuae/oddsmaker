@@ -22,7 +22,11 @@ export const config: Config = {
   telegramChannelId: -1002814567195,
   telegramChannelUrl: 'https://t.me/c/2814567195',
 
-  // Supabase credentials from environment variables
+  // Properly access Vite environment variables
   supabaseUrl: import.meta.env.VITE_SUPABASE_URL,
   supabaseAnonKey: import.meta.env.VITE_SUPABASE_ANON_KEY,
 };
+
+// Debug log to verify environment variables (remove in production)
+console.log('Supabase URL:', config.supabaseUrl);
+console.log('Supabase Anon Key:', config.supabaseAnonKey ? '***' : 'undefined');

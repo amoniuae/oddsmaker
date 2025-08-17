@@ -12,6 +12,7 @@ import { MatchDetail } from './pages/MatchDetail';
 import ResponsibleGambling from './pages/ResponsibleGambling';
 import { Dashboard } from './pages/Dashboard';
 import { Learning } from './pages/Learning';
+import MyBets from './pages/MyBets';
 import ScrollToTop from './components/ScrollToTop';
 import { config } from './config';
 import { ApiKeyNeededOverlay } from './components/ApiKeyNeededOverlay';
@@ -53,6 +54,7 @@ const AppContent: React.FC = () => {
           <Route path="/generator/custom" element={<AIGenerator />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/learning" element={<Learning />} />
+          <Route path="/mybets" element={<MyBets />} />
           <Route path="/about" element={<About />} />
           <Route path="/match-detail" element={<MatchDetail />} />
           <Route path="/responsible-gambling" element={<ResponsibleGambling />} />

@@ -31,6 +31,7 @@ const navLinks = [
     { to: "/leagues", label: "Leagues" },
     { to: "/accumulator", label: "Accumulators" },
     { to: "/generator/custom", label: "Tip Builder" },
+    { to: "/mybets", label: "My Bets" },
     { to: "/dashboard", label: "Dashboard" },
     { to: "/learning", label: "Learning" },
 ];
