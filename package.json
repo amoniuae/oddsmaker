@@ -1,0 +1,27 @@
+{
+  "name": "upload-oddsmaker--good",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^1.14.0",
+    "react-dom": "^19.1.1",
+    "react": "^19.1.1",
+    "chart.js": "^4.5.0",
+    "@supabase/supabase-js": "^2.55.0",
+    "uuid": "^11.1.0",
+    "date-fns": "^4.1.0",
+    "react-router-dom": "^7.8.1",
+    "chartjs-adapter-date-fns": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.2"
+  }
+}
